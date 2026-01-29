@@ -10,11 +10,15 @@
 # Local repository에서
 git init # .git 폴더 생성
 
-git remote add origin <원격지 주소> # 원격지를 origin으로 부를거라고 명명
+git remote add origin <원격지 주소> # 원격지를 origin으로 부를거라고 명명. 어디로 보낼지 주소 지정해줌
 
-git pull origin main # README.md와 License 받아옴
+git pull origin main # README.md와 License 받아옴. 원격지의 main branch
+
+git status # 안 올라간 파일이 빨간색으로 뜸 (확인용)
 
 git add -A # 모든 파일을 staging함(All)
+
+git status # staging된 파일이 초록색으로 뜸
 
 git commit -m '<커밋 메시지>' # 커밋 메시지 작성
 
